@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Hangman</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css" media="screen" title="no title">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12 text-center">
+        <h1 class="titleofgame">Lonesome Hangman</h1>
+        <h3 class="descriptionofgame">The 1+ Player Childhood Favorite </h3>
+      </div>
+    </div>
+    <div class="row">
+      <div id="guessingBox" class="col-xs-12 col-md-12 text-center">
+        <p id="guessing"></p>
+      </div>
+      <br></br>
+      <div class="col-xs-12 col-md-6 text-center">
+        <form id="userpage" class="guess-text">
+          <input id="userLetterGuessButton" type="button" value="Click me once guess made below">
+          <br></br>
+          <p><input id="userCharacterGuess" type="text" size="1" maxlength="1"></p>
+        </form>
+      </div>
+      <div class="col-xs-12 col-md-6 text-center">
+        <span class="youhavecolor">You have </span>
+        <br></br>
+        <span id="numberOfTurns"></span>
+        <br></br>
+        <span class="youhavecolor"> guess(es) left.</span>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="common-words.js" type="text/javascript"></script>
+  <script src="main.js" type="text/javascript"></script>
+</body>
+
+</html>

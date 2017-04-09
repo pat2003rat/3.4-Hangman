@@ -1,0 +1,28 @@
+#userLetterGuessButton {
+  background-color: #E0FFFF;
+  font-size: 20px;
+}
+
+.titleofgame {
+  color: blue;
+  font-size: 50px;
+}
+
+body {
+  background-color: #ffa500;
+}
+
+.youhavecolor {
+  color: blue;
+  font-size: 20px;
+}
+
+#numberOfTurns{
+  color: lime;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+#userCharacterGuess {
+  background-color: #d3d3d3;
+}
